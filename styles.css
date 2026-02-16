@@ -1,0 +1,475 @@
+ 
+body {background-color: rgb(14, 2, 14);
+ font-family: "Indie Flower", cursive;
+padding: 24px;
+
+}
+
+
+a{color: purple;
+text-decoration: none;
+font-size: 30px;}
+h1{color: white;}
+h2{color: white;}
+p{color: white;}
+
+.wrapper-one{
+  display: flex;
+  align-items: center;
+flex-direction: column;
+margin-top: 100px;
+}
+
+.title{
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+ 
+.capa{
+  width: 20%;
+  height: 20%;
+  object-fit: cover;
+}
+
+.text1 {
+font-size: 30px;
+}
+
+.big-wrapper{
+display: flex;
+justify-content: space-between;
+margin-top: 100px;
+}
+
+.wrapper-two {
+margin-left: 20px;
+  width: 700px;
+height: 700px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.wrapper-three{
+width: 700px;
+height: 700px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.big-wrapper2{
+display: flex;
+justify-content: space-between;
+}
+
+.wrapper-four {
+margin-left: 20px;
+  width: 700px;
+height: 700px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.wrapper-five{
+width: 700px;
+height: 700px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.first-img{
+width: 70%;
+height: 70%;
+object-fit: cover;
+}
+
+
+
+.title-brilho1{
+  text-align: center;
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+.text1-brilho1{
+  font-size: 30px;
+margin-top: 100px;
+}
+
+.subtitle1-brilho1{
+text-align: center;
+font-size: 50px;
+}
+
+.wrapper2-brilho1{
+margin-top: 200px;
+
+}
+ .img-print{
+  width: 30%;
+  height: 40%;
+  object-fit: cover;
+ }
+ .text2-brilho1{
+  font-size: 30px;
+ }
+
+
+
+.wrapper3-brilho1{
+margin-top: 15
+0px;
+align-items: center;
+}
+
+
+.wrapper4-brilho1{
+  justify-content: space-between;
+display: flex;
+margin-left: 18px;
+font-size: 30px;
+text-align: center;}
+.mini {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+}
+
+.img-B,
+.img-A,
+.img-C,
+.img-D,
+.img-E,
+.img-L {
+  width: 80%;
+  height: 60%;
+  object-fit: cover;
+}
+
+
+.question{
+  font-size: 30px;
+}
+
+
+
+.opcao {
+  color: white;
+  font-size: 30px;
+
+      margin: 10px 0;
+    }
+    button {
+      margin-top: 10px;
+      padding: 20px 20px;
+      cursor: pointer;
+      background-color: rgb(14, 2, 14);
+      color: white;
+  
+    }
+    .resultado {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .correto {
+      color: green;
+    }
+    .errado {
+      color: red;}
+
+.wrapper5-brilho1{
+margin-top: 150px;
+
+}
+
+ .text3-brilho1{font-size: 30px;}
+
+.img-lindo{
+ width: 50%;
+  height: 40%;
+  object-fit: cover;
+  margin-left: 400px;
+}
+
+.wrapper7-brilho1{margin-top: 100px;
+margin-left: 200px;}
+.text4-brilho1{font-size: 30px;}
+
+.wrapper8-brilho1{
+  margin-top: 50px;
+  margin-left: 1550px;
+}
+
+
+
+
+
+
+.title-brilho2{
+font-size: 70px;
+text-align: center;
+margin-top: 50px;
+}
+
+.text1-brilho2{
+  font-size: 30px;
+}
+.text2-brilho2{
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.big-wrapper-b2{
+display: flex;
+justify-content: space-between;
+}
+
+.wrapper1-b2{
+  margin-left: 20px;
+  width: 700px;
+height: 500px;
+}
+
+
+.img-brilho2{
+  width: 80%;
+  height: 80%;
+object-fit: cover;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text3-brilho2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.video-b2{
+  margin-top: 50px;
+display: flex;
+justify-content: center;
+margin-left: 400px;
+}
+
+
+.text4-brilho2{
+  font-size: 20px;
+ margin-top: 600px;
+ margin-left: 30px;
+}
+
+.big-wrapper2-b2{
+  margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+
+.text5-brilho2{
+text-align: center;
+font-size: 30px;
+}
+
+.big-wrapper3-b2{
+  margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.video2-b2{
+  margin-top: 50px;
+display: flex;
+justify-content: center;
+
+}
+.text6-brilho2{
+margin-top: 25px;
+  font-size: 30px;
+}
+
+
+.text7-brilho2{
+margin-top: 80px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.text8-brilho2{
+margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.wrapper2-b2{
+display: flex;
+ justify-content: center;
+}
+
+
+.img1-brilho2{
+width: 30%;
+  height: 40%;
+object-fit: cover;
+margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.title-brilho3{
+font-size: 70px;
+text-align: center;
+margin-top: 50px;
+}
+
+.wrapper-b3{
+  display: flex;
+  justify-content: center;
+}
+
+.img-brilho3{
+width: 20%;
+  height: 30%;
+object-fit: cover;
+
+}
+
+.text1-brilho3{
+  font-size: 30px;
+margin-top: 40px;
+}
+
+
+.video-b3{
+margin-top: 50px;
+margin-left: 50px;
+display: flex;
+justify-content: space-around;
+height: 50vh;
+}
+
+
+.big-wrapper1-b3{
+display: flex;
+justify-content: space-between;
+margin-top: 70px;
+}
+
+.wrapper1-b3{
+  margin-left: 20px;
+  width: 700px;
+height: 500px;
+}
+
+.big-wrapper2-b3{
+display: flex;
+justify-content: space-between;
+margin-top: 50px;
+}
+
+.video2-b3{
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+}
+
+.text2-brilho3{
+  margin-top: 10px;
+  font-size: 45px;
+  text-align: center;
+}
+
+
+.wrapper2-b3{
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
+
+.title-brilho4{
+font-size: 70px;
+text-align: center;
+margin-top: 50px;
+}
+
+.text1-b4{
+  margin-top: 80px;
+  font-size: 30px;
+}
+ 
+.wrapper1-b4{
+ margin-left: 100px
+}
+
+.img-b4{
+  width: 30%;
+  height: 70%;
+object-fit: cover;
+margin-top: 30px;
+}
+
+
+.img1-b4{
+  width: 31%;
+  height: 70%;
+object-fit: cover;
+margin-top: 50px;
+}
+
+.wrapper2-b4{
+
+  text-align: center;
+}
+.text2-b4{
+  font-size: 60px;
+color: rgb(127, 3, 209);
+}
+
+
+@keyframes twinkle {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.stars {
+   width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:
+    radial-gradient(1px 1px at 20px 30px, white, transparent),
+    radial-gradient(1px 1px at 100px 150px, white, transparent),
+    radial-gradient(1px 1px at 200px 80px, white, transparent),
+    radial-gradient(1px 1px at 300px 200px, white, transparent),
+    radial-gradient(1px 1px at 400px 120px, white, transparent);
+  background-size: 500px 500px;
+  z-index: 0;
+  animation: twinkle 4s infinite alternate;
+pointer-events: none;}
+ 
+
+
